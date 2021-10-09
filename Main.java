@@ -1,13 +1,10 @@
 package com.company;
-import java.lang.*;
-import java.util.Scanner;
-
 
 public class Main {
 
     public static void main(String[] args) {
-        Ball obj;
-        obj = new Ball();
-        obj.move();
+	    Square c = new Square();
+        System.out.println(c.getArea());
+        System.out.println(c.to_String());
     }
 }
